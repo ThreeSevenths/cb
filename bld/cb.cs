@@ -1281,6 +1281,7 @@ public static class cb
         {
             "..\\sqlite3\\sqlite3.c",
             "..\\stubs\\stubs.c",
+			"..\\sqlite3\\spellfix.c",
         };
 
 		{
@@ -1537,6 +1538,7 @@ public static class cb
         var cfiles = new string[]
         {
             "..\\sqlite3mc\\sqlite3.c",
+			"..\\sqlite3mc\\spellfix.c",
         };
 
 		{
@@ -2296,6 +2298,7 @@ public static class cb
  
         var cfiles = new List<string>();
         cfiles.Add(Path.Combine(sqlcipher_dir, "sqlite3.c"));
+		cfiles.Add(Path.Combine(sqlcipher_dir, "spellfix.c"));
         foreach (var s in tomcrypt_cfiles)
         {
             cfiles.Add(Path.Combine(tomcrypt_src_dir, s));
@@ -2638,6 +2641,7 @@ public static class cb
 
 		var cfiles = new List<string>();
 		cfiles.Add(Path.Combine(sqlcipher_dir, "sqlite3.c"));
+		cfiles.Add(Path.Combine(sqlcipher_dir, "spellfix.c"));
 
 		var includes = new List<string>();
 		includes.Add(sqlcipher_dir);
@@ -2685,6 +2689,7 @@ public static class cb
         var cfiles = new string[]
         {
             "..\\sqlite3mc\\sqlite3.c",
+			"..\\sqlite3mc\\spellfix.c",
         };
 
 		{
