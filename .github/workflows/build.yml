@@ -186,7 +186,7 @@ jobs:
         path: cb/bld/bin
     - uses: actions/download-artifact@v3
       with:
-        name: bin-macos-latest
+        name: bin-macos-12
         path: cb/bld/bin
     - uses: actions/download-artifact@v3
       with:
@@ -255,7 +255,7 @@ jobs:
         path: bld/bin
     - uses: actions/download-artifact@v3
       with:
-        name: bin-macos-latest
+        name: bin-macos-12
         path: bld/bin
     - uses: actions/download-artifact@v3
       with:
