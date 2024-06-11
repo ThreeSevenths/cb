@@ -1245,6 +1245,7 @@ public static class cb
         defines["SQLITE_ENABLE_RTREE"] = null;
         defines["SQLITE_ENABLE_SNAPSHOT"] = null;
         defines["SQLITE_DEFAULT_FOREIGN_KEYS"] = "1";
+        defines["SQLITE_SOUNDEX"] = null;
     }
 
     static void add_win_sqlite3_defines(Dictionary<string,string> defines)
